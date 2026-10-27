@@ -4,7 +4,7 @@ The screen a caller keeps open beside the phone on a cold call. It keeps them on
 
 | | |
 |---|---|
-| **Live app (Vercel)** | `[TODO: paste your Vercel URL](https://coldcall-guide-two.vercel.app/)` |
+| **Live app (Vercel)** | `https://coldcall-guide-two.vercel.app` |
 | **API health (Render)** | `TODO: https://<your-service>.onrender.com/health` |
 | **Database** | Supabase (Postgres), schema in [`supabase/schema.sql`](supabase/schema.sql) |
 | **LLM** | Gemini (Google AI Studio), called only from the backend. See "The LLM" below |
