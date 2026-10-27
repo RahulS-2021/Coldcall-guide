@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+# call transcripts are for the take-home only and must never be committed
+transcripts/
+T[0-9][0-9][0-9].txt
+*.log
+.DS_Store
