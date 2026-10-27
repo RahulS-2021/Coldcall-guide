@@ -114,6 +114,7 @@ export function createApp({ db, llm = null, corsOrigins = [] }) {
         } catch (e) {
           body.ok = false;
           body.db_reachable = false;
+          body.db_error = String(e.message).slice(0, 200);
           return res.status(503).json(body);
         }
       }
