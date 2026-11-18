@@ -2,13 +2,6 @@
 
 The screen a caller keeps open beside the phone on a cold call. It keeps them on the eight-stage structure of the call, shows what prospects tend to say at each point, records what happened with one tap, keeps a box for the prospect's own words, and saves the call. A second screen lists past calls and the stage each one reached.
 
-| | |
-|---|---|
-| **Live app (Vercel)** | `https://coldcall-guide-two.vercel.app` |
-| **API health (Render)** | `https://coldcall-backend.onrender.com/health` |
-| **Database** | Supabase (Postgres), schema in [`supabase/schema.sql`](supabase/schema.sql) |
-| **LLM** | Gemini (Google AI Studio), called only from the backend. See "The LLM" below |
-
 The Render free tier sleeps when idle. The first request after a pause can take up to a minute; the app shows a "waking the server" banner and retries instead of failing.
 
 ## How it is built
